@@ -24,7 +24,7 @@ function convertFahrToCelsius(F) {
     
 }
 
-
+ convertFahrToCelsius();
 
 function checkYuGiOh(n) {
     //create an array with n length using es6
@@ -54,3 +54,4 @@ function checkYuGiOh(n) {
         return `'${n}' is an invalid parameter`;
     }
 }
+checkYuGiOh();
